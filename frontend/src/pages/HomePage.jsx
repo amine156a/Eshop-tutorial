@@ -1,21 +1,20 @@
 import React from 'react'
 import Header from "../components/Layout/Header";
+import Header2 from "../components/Layout/Header2";
 import Hero from "../components/Route/Hero/Hero";
-import Categories from "../components/Route/Categories/Categories";
 import BestDeals from "../components/Route/BestDeals/BestDeals";
 import FeaturedProduct from "../components/Route/FeaturedProduct/FeaturedProduct";
-import Events from "../components/Events/Events";
 import Sponsored from "../components/Route/Sponsored";
 import Footer from "../components/Layout/Footer";
-
+import Categories from "../components/Route/Categories/Categories";
 const HomePage = () => {
   return (
     <div>
         <Header activeHeading={1} />
+        <Header2 activeHeading={2}/>
         <Hero />
         <Categories />
         <BestDeals />
-        <Events />
         <FeaturedProduct />
         <Sponsored />
         <Footer />

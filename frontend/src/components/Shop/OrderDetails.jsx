@@ -124,7 +124,7 @@ const OrderDetails = () => {
           </h4>
           <h4 className=" text-[20px]">{data?.shippingAddress.country}</h4>
           <h4 className=" text-[20px]">{data?.shippingAddress.city}</h4>
-          <h4 className=" text-[20px]">{data?.user?.phoneNumber}</h4>
+          <h4 className=" text-[20px]">{data?.shippingAddress.zipCode}</h4>
         </div>
         <div className="w-full 800px:w-[40%]">
           <h4 className="pt-3 text-[20px]">Payment Info:</h4>
@@ -170,7 +170,7 @@ const OrderDetails = () => {
       )}
       {
         data?.status === "Processing refund" || data?.status === "Refund Success" ? (
-          <select value={status} 
+          <select value={status}
        onChange={(e) => setStatus(e.target.value)}
        className="w-[200px] mt-2 border h-[35px] rounded-[5px]"
       >

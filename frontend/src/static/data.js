@@ -5,29 +5,25 @@ export const navItems = [
       url: "/",
     },
     {
-      title: "Best Selling",
+      title: "Meilleure vente",
       url: "/best-selling",
     },
     {
-      title: "Products",
+      title: "Produits",
       url: "/products",
-    },
-    {
-      title: "Events",
-      url: "/events",
     },
     {
       title: "FAQ",
       url: "/faq",
     },
   ];
-  
+
   // branding data
   export const brandingData = [
     {
       id: 1,
-      title: "Free Shipping",
-      Description: "From all orders over 100$",
+      title: "Livraison Gratuite",
+      Description: "De toutes les commandes",
       icon: (
         <svg
           width="36"
@@ -76,8 +72,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Daily Surprise Offers",
-      Description: "Save up to 25% off",
+      title: " Offres surprises quotidiennes",
+      Description: " Économisez jusqu'à 25 %",
       icon: (
         <svg
           width="32"
@@ -104,8 +100,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Affortable Prices",
-      Description: "Get Factory direct price",
+      title: "Prix ​​abordables",
+      Description: "Obtenez le prix direct d'usine",
       icon: (
         <svg
           width="32"
@@ -186,80 +182,126 @@ export const navItems = [
       ),
     },
   ];
-  
+
   // categories data
   export const categoriesData = [
     {
       id: 1,
-      title: "Computers and Laptops",
+      title: "Ordinateurs et... ",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://i.ibb.co/YfzSK6g/Picsart-23-08-23-02-51-10-586-60x60.png",
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "cosmétiques",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://i.ibb.co/0X0kCzJ/Picsart-23-08-23-03-53-52-011-60x60.png",
+    },
+    {
+      id: 3,
+      title: "Accessoires",
+      subTitle: "",
+      image_Url:
+       "https://i.ibb.co/cggc9SK/Picsart-23-08-23-02-51-51-159-60x60.png",
+    },
+    {
+      id: 4,
+      title: "Vêtements",
+      subTitle: "",
+      image_Url:
+        "https://i.ibb.co/ftbLMqD/Picsart-23-08-23-03-53-33-585-60x60.png",
+    },
+    {
+      id: 5,
+      title: "Chaussures",
+      subTitle: "",
+      image_Url:
+        "https://i.ibb.co/QDzb72x/Picsart-23-08-23-02-51-29-778-60x60.png",
+    },
+    {
+      id: 6,
+      title: "Téléphone ",
+      subTitle: "",
+      image_Url:
+         "https://i.ibb.co/f0hZYN4/Picsart-23-08-23-03-53-17-098-60x60.png",
+    },
+    {
+      id: 9,
+      title: "Outils scolaires",
+      subTitle: "",
+      image_Url:
+        "https://i.ibb.co/rfg0Yyn/Picsart-23-08-23-03-52-58-773-60x60.png",
+    },
+    {
+      id: 10,
+      title: "Autres",
+      subTitle: "",
+      image_Url:
+        "https://i.ibb.co/hgGSPNS/Picsart-23-08-23-03-52-42-540-60x60.png",
+    },
+  ];
+  // categories data
+  export const uccategories1 = [
+    {
+      id: 1,
+      title: "Ordinateurs et Pc Portable",
+      subTitle: "",
+      image_Url:
+        "https://img.icons8.com/fluency/48/000000/circled.png",
+    },
+    {
+      id: 2,
+      title: "cosmétiques",
+      subTitle: "",
+      image_Url:
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 3,
       title: "Accesories",
       subTitle: "",
       image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 4,
-      title: "Cloths",
+      title: "Vêtements",
       subTitle: "",
       image_Url:
-        "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 5,
-      title: "Shoes",
+      title: "Chaussures",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 6,
-      title: "Gifts",
+      title: "Téléphone",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
-    },
-    {
-      id: 7,
-      title: "Pet Care",
-      subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
-    },
-    {
-      id: 8,
-      title: "Mobile and Tablets",
-      subTitle: "",
-      image_Url:
-        "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 9,
-      title: "Music and Gaming",
+      title: "Outils scolaires",
       subTitle: "",
       image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
     {
       id: 10,
-      title: "Others",
+      title: "Autres",
       subTitle: "",
       image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+        "https://img.icons8.com/fluency/48/circled.png",
     },
   ];
-  
+
   // product Data
   export const productData = [
     {
@@ -590,7 +632,7 @@ export const navItems = [
       stock: 10,
     },
   ];
-  
+
   export const footerProductLinks = [
     {
       name: "About us",
@@ -610,7 +652,7 @@ export const navItems = [
       name: "Reviews",
     },
   ];
-  
+
   export const footercompanyLinks = [
     {
       name: "Game & Video",
@@ -628,7 +670,7 @@ export const navItems = [
       name: "Events",
     },
   ];
-  
+
   export const footerSupportLinks = [
     {
       name: "FAQ",
@@ -646,4 +688,3 @@ export const navItems = [
       name: "Live chat",
     },
   ];
-  

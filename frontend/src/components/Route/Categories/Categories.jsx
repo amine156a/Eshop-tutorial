@@ -25,10 +25,11 @@ const Categories = () => {
       </div>
 
       <div
-        className={`${styles.section} bg-white p-6 rounded-lg mb-12`}
+        className={`${styles.section2} bg-white p-6 rounded-lg mb-12
+         z-50 top-0 left-0 shadow-sm 800px:hidden`}
         id="categories"
       >
-        <div className="grid grid-cols-1 gap-[5px] md:grid-cols-2 md:gap-[10px] lg:grid-cols-4 lg:gap-[20px] xl:grid-cols-5 xl:gap-[30px]">
+        <div className=" ucategorie grid grid-cols-1 gap-[5px] md:grid-cols-2 md:gap-[10px] lg:grid-cols-4 lg:gap-[20px] xl:grid-cols-5 xl:gap-[30px]">
           {categoriesData &&
             categoriesData.map((i) => {
               const handleSubmit = (i) => {
@@ -36,16 +37,19 @@ const Categories = () => {
               };
               return (
                 <div
-                  className="w-full h-[100px] flex items-center justify-between cursor-pointer overflow-hidden"
+                  className="main-div"
                   key={i.id}
                   onClick={() => handleSubmit(i)}
                 >
-                  <h5 className={`text-[18px] leading-[1.3]`}>{i.title}</h5>
+                  <div className="outer-circle">
                   <img
                     src={i.image_Url}
                     className="w-[120px] object-cover"
                     alt=""
                   />
+                  </div>
+                 <h5 className={`uctext text-[12px] leading-[1.3]`}>{i.title}</h5>
+
                 </div>
               );
             })}
